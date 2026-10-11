@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the Master Project as follows."
+title: "Climate Shocks on Chilean Copper Mining: ENSO Attribution, Impact, and Adaptation"
+type: software
+authors:
+  - family-names: Enson
+    given-names: Gleb
+  - family-names: Kale
+    given-names: Rohan
+  - family-names: Seick
+    given-names: Manuel
+  - family-names: Suárez
+    given-names: Julia
+  - family-names: Yasin
+    given-names: Fatimah
+affiliation: "Barcelona School of Economics"
+date-released: 2026
+repository-code: "https://github.com/manuelseick-byte/climate-shocks-chilean-copper"
