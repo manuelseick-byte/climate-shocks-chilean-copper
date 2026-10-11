@@ -1,0 +1,44 @@
+% Auto-traceable to: tables/41__regressions_drought.csv (decomposition),
+% tables/17__matched_rho_diagonal.csv, 17__fe_ladder_matchedrho.csv,
+% 17__gate_sensitivity.csv, 17__period_sensitivity.csv, 17__placebo_lead.csv.
+% Mine-year panel, 19 operations, N = 369 (2006--2025), mine + year FE,
+% region-clustered SE.  Matched-$\rho$ gate (script 17).
+\begin{table}[H]
+\centering
+\caption{DROUGHT: the all-drought null versus the ENSO-aligned negative, and the matched-scale robustness battery. ``ENSO-aligned'' = SPEI-12 drought classified by the matched 12-month ENSO-aligned gate (active ONI, teleconnection-predicted dry direction with matched-window $\rho_{12}$, realised regional precipitation deficit). Mine-year panel (19 operations, $N=369$); mine + year FE; SE clustered by region.}
+\label{tab:drought-matched}
+\small
+\begin{tabular}{lrrl}
+\toprule
+\textbf{Specification} & $\hat\beta$ & $p_{\text{CR0}}$ & \textbf{Reading} \\
+\midrule
+\multicolumn{4}{l}{\emph{Headline contrast (mine + year FE)}} \\
+\quad All-drought (threshold-only SPEI-12)      & $+0.075$ & $0.510$ & no mean output effect \\
+\quad ENSO-aligned, matched-$\rho$              & $-0.277$ & $0.025$ & ENSO-aligned subset (negative, resolved) \\
+\quad ENSO-aligned, $+$ mine trends             & $-0.529$ & $0.035$ & larger, but more parameterised (fragile) \\
+\midrule
+\multicolumn{4}{l}{\emph{Two-regressor decomposition (mine + year FE)}} \\
+\quad ENSO-aligned component                    & $-0.293$ & $0.027$ & negative \\
+\quad non-ENSO component                        & $+0.162$ & $0.254$ & null / positive \\
+\midrule
+\multicolumn{4}{l}{\emph{Matched-scale diagonal (SPEI-$k$ $\times$ $k$-month gate)}} \\
+\quad SPEI-3 $\times$ 3-month                   & $-0.429$ & $0.037$ & negative, resolved \\
+\quad SPEI-6 $\times$ 6-month                   & $-0.447$ & $0.061$ & (multi-month) \\
+\quad SPEI-12 $\times$ 12-month                 & $-0.277$ & $0.025$ & \\
+\midrule
+\multicolumn{4}{l}{\emph{Gate-definition sensitivity (SPEI-12)}} \\
+\quad drop realised-precipitation condition     & $-0.266$ & $0.024$ & barely moves \\
+\quad drop teleconnection direction             & $-0.101$ & $0.212$ & halves; teleconn.\ essential \\
+\quad realised dryness only (no ENSO)           & $+0.071$ & $0.501$ & null \\
+\midrule
+\multicolumn{4}{l}{\emph{Period sensitivity and placebo}} \\
+\quad pre-2020 output years only                & $+0.801$ & $0.131$ & no pre-megadrought signal \\
+\quad post-2020 output years only               & $-0.615$ & $0.051$ & identification block \\
+\quad lead placebo ($y\!+\!1..y\!+\!3$ exposure)  & $+0.094$ & $0.549$ & future does not predict \\
+\midrule
+\multicolumn{4}{l}{\emph{Leave-one-region-out and randomisation inference (matched-$\rho$ ENSO-aligned)}} \\
+\quad LOO-region range (7 refits)               & \multicolumn{2}{c}{$[-0.443,\,-0.211]$} & all negative; $p<0.10$ in 6/7 \\
+\quad randomisation-inference $p$ ($B{=}2000$)    & \multicolumn{2}{c}{$0.134$} & one-sided; WCB unstable on $N{=}369$ \\
+\bottomrule
+\end{tabular}
+\end{table}
