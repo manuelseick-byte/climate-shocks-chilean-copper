@@ -1,0 +1,67 @@
+================================================================================
+ [54] Diagnostic 1 — treatment cell size
+================================================================================
+How many mine-months in the sample have both stress = 1 AND adapt_main = 1?
+If this number is small, b2 will be identified off a thin treatment cell.
+
+  stress_flood_mine        :   1 stressed-AND-adapted mine-months across 1 mines
+      Los Pelambres                   1
+  stress_flood_regmean_M   :   9 stressed-AND-adapted mine-months across 4 mines
+      El Tesoro                       3
+      Esperanza                       3
+      Los Pelambres                   2
+      Candelaria                      1
+  stress_heat_mine         :  44 stressed-AND-adapted mine-months across 4 mines
+      El Tesoro                       16
+      Spence                          13
+      Candelaria                      10
+      Anglo American Norte            5
+
+================================================================================
+ [54] Diagnostic 2 — leave-one-out for adapted mines
+================================================================================
+How much does b2 (the interaction) move when each adapted mine is dropped?
+If one mine drives the headline result, b2 will swing dramatically.
+
+--- channel: stress_flood_regmean_M ---
+  FULL SAMPLE        : b2 = -0.3432  p = 0.005
+  drop Anglo American Norte     : b2 = -0.3448  p = 0.007
+  drop Candelaria               : b2 = -0.3665  p = 0.002
+  drop Collahuasi               : b2 = -0.3790  p = 0.020
+  drop El Tesoro                : b2 = -0.5523  p = 0.037
+  drop Escondida                : b2 = -0.3548  p = 0.007
+  drop Esperanza                : b2 = -0.1104  p = 0.483
+  drop Los Pelambres            : b2 = -0.3805  p = 0.001
+  drop Quebrada Blanca          : b2 = -0.2438  p = 0.067
+  drop Spence                   : b2 = -0.3221  p = 0.013
+
+--- channel: stress_heat_mine ---
+  FULL SAMPLE        : b2 = -0.0730  p = 0.537
+  drop Anglo American Norte     : b2 = -0.0269  p = 0.834
+  drop Candelaria               : b2 = -0.0436  p = 0.673
+  drop Collahuasi               : b2 = -0.0878  p = 0.546
+  drop El Tesoro                : b2 = -0.0965  p = 0.552
+  drop Escondida                : b2 = -0.0846  p = 0.500
+  drop Esperanza                : b2 = -0.0779  p = 0.505
+  drop Los Pelambres            : b2 = -0.0902  p = 0.496
+  drop Quebrada Blanca          : b2 = +0.0326  p = 0.197
+  drop Spence                   : b2 = -0.2281  p = 0.072
+
+================================================================================
+ [54] Diagnostic 3 — pre-sample adapted vs within-sample switchers
+================================================================================
+Split adapt into two interactions:
+  adapt_presample : ['Escondida', 'Esperanza', 'El Tesoro', 'Candelaria']
+  adapt_switcher  : ['Spence', 'Quebrada Blanca', 'Collahuasi', 'Los Pelambres', 'Anglo American Norte']
+If both give negative b2, the result isn't only about ramp-ups.
+
+--- channel: stress_flood_regmean_M ---
+  Stress (b1)               : -0.0057  p=0.711
+  Stress x adapt_presample  : -0.3341  p=0.000
+  Stress x adapt_switcher   : -0.4303  p=0.054
+
+--- channel: stress_heat_mine ---
+  Stress (b1)               : +0.0056  p=0.803
+  Stress x adapt_presample  : -0.0966  p=0.052
+  Stress x adapt_switcher   : -0.1497  p=0.345
+
