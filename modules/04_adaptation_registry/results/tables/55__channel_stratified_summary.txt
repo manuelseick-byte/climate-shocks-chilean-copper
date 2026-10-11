@@ -1,0 +1,130 @@
+==========================================================================================
+ OPTION C — CHANNEL-STRATIFIED ADAPTATION INTERACTION
+==========================================================================================
+
+ Theoretical mapping channel <-> adaptation mechanism:
+   DROUGHT (meteo, hydro) - desalination directly substitutes for missing water  -> PRIMARY TEST
+   FLOOD (mine, region)   - desalination has no mechanism for rainfall events    -> PLACEBO
+   HEAT (mine-cell)       - weak indirect link via cooling/dust suppression      -> INTERMEDIATE
+
+==========================================================================================
+ PRIMARY — DROUGHT CHANNELS (where adaptation should moderate)
+==========================================================================================
+
+ log_kt_year ~ Drought + (Drought x Adapt) + Adapt + log_price_year
+              | mine_operation + year, cluster = codregion (CR1)
+
+--- Spec A - meteo (any cause, SPEI-12 <= -1) ---
+  b1 (stress on unadapted):     +0.0932  p = 0.265
+  b2 (stress x adapt):          -0.0059  p = 0.844    <- moderation parameter
+  b3 (adapt level):             +0.3518  p = 0.063
+  marg.eff. on adapted (b1+b2): +0.0873
+  N = 369
+
+--- Spec B - meteo (ENSO-attributable) ---
+  b1 (stress on unadapted):     +0.1933  p = 0.255
+  b2 (stress x adapt):          -0.3826  p = 0.018    <- moderation parameter
+  b3 (adapt level):             +0.3898  p = 0.066
+  marg.eff. on adapted (b1+b2): -0.1893
+  N = 369
+
+--- Spec A - hydro (any cause, SSI-12 <= -1) ---
+  b1 (stress on unadapted):     +0.0345  p = 0.394
+  b2 (stress x adapt):          -0.1722  p = 0.261    <- moderation parameter
+  b3 (adapt level):             +0.4020  p = 0.008
+  marg.eff. on adapted (b1+b2): -0.1377
+  N = 171
+
+--- Spec B - hydro (ENSO-attributable) ---
+  b1 (stress on unadapted):     +0.0460  p = 0.503
+  b2 (stress x adapt):          +nan  p = nan    <- moderation parameter
+  b3 (adapt level):             +0.3593  p = 0.004
+  marg.eff. on adapted (b1+b2): +nan
+  N = 171
+
+==========================================================================================
+ PLACEBO — FLOOD CHANNELS (desalination has no mechanism)
+==========================================================================================
+
+ log_kt ~ Stress + (Stress x Adapt) + Adapt + log_price
+        | mine_operation + calmonth + year, cluster = codregion (CR1)
+
+ Predicted under H0 (Adapt = pure water-source variable): b2 ~ 0
+ Any significant b2 here is interpreted as evidence of an ADDITIONAL exposure
+ channel created by coastal infrastructure, not as moderation by desalination.
+
+--- Spec B - flood mine-cell (daily heavy rain) ---
+  b1 (stress on unadapted):     +0.0208  p = 0.564
+  b2 (stress x adapt):          -0.1403  p = 0.494    <- placebo / exposure channel
+  b3 (adapt level):             +0.3637  p = 0.059
+  marg.eff. on adapted (b1+b2): -0.1195
+  N = 4393
+
+--- Spec B - flood region-mean (monthly regional P) ---
+  b1 (stress on unadapted):     -0.0151  p = 0.544
+  b2 (stress x adapt):          -0.2481  p = 0.089    <- placebo / exposure channel
+  b3 (adapt level):             +0.3680  p = 0.056
+  marg.eff. on adapted (b1+b2): -0.2632
+  N = 4393
+
+--- Spec A - flood mine-cell (any cause) ---
+  b1 (stress on unadapted):     -0.0185  p = 0.374
+  b2 (stress x adapt):          -0.1978  p = 0.374    <- placebo / exposure channel
+  b3 (adapt level):             +0.3625  p = 0.061
+  marg.eff. on adapted (b1+b2): -0.2163
+  N = 4375
+
+--- Spec A - flood region-mean (any cause) ---
+  b1 (stress on unadapted):     -0.0417  p = 0.044
+  b2 (stress x adapt):          -0.0923  p = 0.235    <- placebo / exposure channel
+  b3 (adapt level):             +0.3702  p = 0.058
+  marg.eff. on adapted (b1+b2): -0.1341
+  N = 4393
+
+==========================================================================================
+ INTERMEDIATE — HEAT CHANNEL (weak indirect mechanism)
+==========================================================================================
+
+ log_kt ~ Stress + (Stress x Adapt) + Adapt + log_price
+        | mine_operation + calmonth + year, cluster = codregion (CR1)
+
+ Predicted: weak / null. Desalination doesn't directly help workers
+ cope with heat, but adapted mines tend to be newer with modern HVAC.
+
+--- Spec B - heat mine-cell ---
+  b1 (stress on unadapted):     -0.0165  p = 0.469
+  b2 (stress x adapt):          +0.0149  p = 0.881
+  b3 (adapt level):             +0.3619  p = 0.065
+  marg.eff. on adapted (b1+b2): -0.0016
+  N = 4393
+
+--- Spec A - heat mine-cell (any cause) ---
+  b1 (stress on unadapted):     -0.0505  p = 0.222
+  b2 (stress x adapt):          +0.1123  p = 0.433
+  b3 (adapt level):             +0.3343  p = 0.120
+  marg.eff. on adapted (b1+b2): +0.0618
+  N = 4375
+
+==========================================================================================
+ SUMMARY — interpretation matrix
+==========================================================================================
+
+ PRIMARY (drought, ENSO-attributable, Spec B):
+   str_share_meteo       b2 = -0.383  p = 0.018**
+   str_share_hydro       b2 = +nan  p = nan
+
+ PLACEBO (flood, ENSO-attributable, Spec B):
+   stress_flood_mine     b2 = -0.140  p = 0.494
+   stress_flood_regmean_M  b2 = -0.248  p = 0.089*
+
+ INTERMEDIATE (heat, ENSO-attributable, Spec B):
+   stress_heat_mine      b2 = +0.015  p = 0.881
+
+ Interpretation framework:
+   - PRIMARY  significant + positive => adaptation moderates drought (hypothesis confirmed)
+   - PRIMARY  null or negative     => moderation hypothesis not supported in panel
+                                       (event study remains the cleaner test)
+   - PLACEBO  null                 => adapt is a clean water-source variable
+   - PLACEBO  non-zero             => additional channel: coastal-logistics exposure
+                                       created BY adaptation, not eliminated by it
+   - INTERMED null or weak         => expected; desalination is not a heat-stress intervention

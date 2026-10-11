@@ -1,0 +1,11 @@
+sample,regressor,label,b2,p,N
+full,cum3_str_meteo,"ENSO meteo (PRIMARY, cum3)",0.086,0.897,417
+full,cum3_thr_meteo,all-cause meteo (cum3),0.052,0.709,417
+full,cum3_str_hydro,ENSO hydro (cum3),-1.364,0.007,185
+full,cum3_thr_hydro,all-cause hydro (cum3),-0.37,0.042,185
+full,str_share_meteo,ENSO meteo (same-year — superseded spec),-0.362,0.01,417
+switcher_only,cum3_str_meteo,"ENSO meteo (PRIMARY, cum3)",-2.311,0.033,333
+switcher_only,cum3_thr_meteo,all-cause meteo (cum3),-0.788,0.226,333
+switcher_only,cum3_str_hydro,ENSO hydro (cum3),-1.364,0.007,185
+switcher_only,cum3_thr_hydro,all-cause hydro (cum3),-0.37,0.042,185
+switcher_only,str_share_meteo,ENSO meteo (same-year — superseded spec),-0.472,0.549,333
