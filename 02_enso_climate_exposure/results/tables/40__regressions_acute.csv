@@ -1,7 +1,0 @@
-label,group,spec_lbl,term,beta,se,p_cr0,p_wcb,n_firings,n_obs,n_clust
-FLOOD_regmean_A,FLOOD — regional-mean monthly (headline),General flood shocks,thr_flood_regmean_M,-0.0474154273157862,0.00951667765586296,0.00249586782345026,0.013013013013013,602,4393,7
-FLOOD_regmean_B,FLOOD — regional-mean monthly (headline),ENSO-attributable flood shocks,stress_flood_regmean_M,-0.0253989539485075,0.0197414766015094,0.245649971684749,0.287287287287287,115,4393,7
-FLOOD_mine_A,FLOOD — mine-cell (conservative),General flood shocks,thr_flood_mine,-0.0180741681897371,0.0159670115951531,0.300849481204565,0.395395395395395,293,4393,7
-FLOOD_mine_B,FLOOD — mine-cell (conservative),ENSO-attributable flood shocks (singletons filtered),stress_flood_mine_clean,-0.00221114506041004,0.0276651049508491,0.938895731180681,0.977977977977978,65,4393,7
-HEAT_mine_A,HEAT — mine-cell,General heat shocks,thr_heat_mine,-0.00345904640527058,0.00898269248204756,0.713459670415507,0.685685685685686,1127,4393,7
-HEAT_mine_B,HEAT — mine-cell,ENSO-attributable heat shocks,stress_heat_mine,-0.017975604241218,0.00879332874262534,0.0869334895266403,0.6996996996997,310,4393,7

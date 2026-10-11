@@ -1,3 +1,0 @@
-channel,n_events,n_thr_fires,n_aligned_fires,n_stress_fires,pct_thr,pct_aligned,pct_stress
-FLOOD_mine,20,12,10,10,60,50,50
-FLOOD_regmean_M,20,15,5,5,75,25,25

@@ -1,5 +1,0 @@
-channel,definition_short,physical_threshold,unit,temporal_resolution,spatial_resolution,source_anchor,role
-FLOOD_regmean_M,Regional-mean monthly accumulation,>= 20 mm/month,mm/month,monthly,region polygon area-weighted mean,Wilcox et al. 2016 GRL 20 mm threshold applied at the regional-mean monthly scale,FLOOD headline
-FLOOD_mine,Mine-cell daily extreme,>= 20 mm/day,mm/day,daily,mine 0.05 deg grid cell,Wilcox et al. 2016 GRL aluvion definition,Conservative point-level lower bound
-HEAT_mine,Mine-cell monthly-mean heat exceedance,>= 23.5 degC monthly mean,degC,monthly aggregate,mine 0.05 deg grid cell,Chile DS 594/1999 occupational heat-stress (daily 27 C anchor calibrated to monthly mean on CR2MET 1960-2021),Acute (robust null)
-DROUGHT_meteo,Meteorological 12-month water balance,SPEI-12 <= -1,unitless,monthly aggregated to annual share,mine 0.05 deg grid cell,WMO moderate-drought standard (Vicente-Serrano 2010),DROUGHT headline (meteorological)
