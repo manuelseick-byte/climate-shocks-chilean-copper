@@ -1,0 +1,95 @@
+mine_code,mine_name,region_code,year,copper_production_kt,cash_cost_usc_per_lb,revenue_usd_m,ebitda_usd_m,capex_usd_m,dividends_paid_usd_m,payments_to_suppliers_usd_m,contractor_fte,own_employees,rse_community_spend_usd_m,water_consumption_m3,water_intensity_m3_per_tonne,water_source_primary,desalination_operating,water_stress_event,water_stress_description,regulatory_water_restriction,source_document,lme_price_usd_tonne,lme_price_usc_lb,lme_price_lag1_usc_lb,lme_price_lag2_usc_lb,lme_price_lag3_usc_lb,realized_price_usc_lb,price_premium_discount_pct,yoy_price_change_pct
+CHC_1,Gabriela Mistral,2,2020,1618.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",no,2023_AnnualReport_ES.txt,6174.6,280.07,272.62,296.19,279.86,,,2.7
+CHC_1,Gabriela Mistral,2,2021,1618.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",no,2023_AnnualReport_ES.txt,9317.4,422.63,280.07,272.62,296.19,,,50.9
+CHC_1,Gabriela Mistral,2,2022,1446.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",yes,2023_AnnualReport_ES.txt,8828.9,400.47,422.63,280.07,272.62,,,-5.2
+CHC_1,Gabriela Mistral,2,2023,1325.0,,,,,,,,,,,,continental aquifer,partial,no,,no,2023_AnnualReport_ES.txt,8490.8,385.13,400.47,422.63,280.07,,,-3.8
+CHC_10,Mantoverde,3,2023,164.0,288.0,,,,,,,,,,,seawater,yes,no,,no,Annual-Information-Form-2025-Final.txt,8490.8,385.13,400.47,422.63,280.07,,,-3.8
+CHC_10,Mantoverde,3,2024,184.0,277.0,,,,,,,,,,,seawater,yes,no,,no,Annual-Information-Form-2025-Final.txt,9142.1,414.68,385.13,400.47,422.63,,,7.7
+CHC_11,Zaldívar,2,2015,27.6,,,,,,,,,,,,continental aquifer,no,no,,no,2015_AR.txt,5510.5,249.95,311.32,332.55,361.01,,,-19.7
+CHC_11,Zaldívar,2,2016,103.4,,,,,,,,,,,,continental aquifer,no,no,,no,2016_AR.txt,4867.9,220.8,249.95,311.32,332.55,,,-11.7
+CHC_11,Zaldívar,2,2017,103.3,,,,,,,,,,,,continental aquifer,no,no,,no,2017_AR.txt,6169.9,279.86,220.8,249.95,311.32,,,26.7
+CHC_11,Zaldívar,2,2018,94.6,,,,,,,,,,,,continental aquifer,no,no,,no,2018_AR.txt,6529.8,296.19,279.86,220.8,249.95,,,5.8
+CHC_11,Zaldívar,2,2019,116.1,,,,,,,,,,,,continental aquifer,no,no,,no,2019_AR.txt,6010.1,272.62,296.19,279.86,220.8,,,-8.0
+CHC_11,Zaldívar,2,2020,96.5,,,,,,,,,,,,continental aquifer,no,no,,no,2020_AR.txt,6174.6,280.07,272.62,296.19,279.86,,,2.7
+CHC_11,Zaldívar,2,2021,88.0,,849.0,,,,,,,,,,continental aquifer,no,no,,no,2021_AR.txt,9317.4,422.63,280.07,272.62,296.19,437.61,3.5,50.9
+CHC_11,Zaldívar,2,2022,88.9,,,,,,,,,,,,continental aquifer,no,no,,no,2022_AR.txt,8828.9,400.47,422.63,280.07,272.62,,,-5.2
+CHC_11,Zaldívar,2,2023,80.9,,,,,,,,,,,,continental aquifer,no,no,,no,2023_AR.txt,8490.8,385.13,400.47,422.63,280.07,,,-3.8
+CHC_11,Zaldívar,2,2024,80.3,,,,,,,,,,,,continental aquifer,no,no,,no,2024_AR.txt,9142.1,414.68,385.13,400.47,422.63,,,7.7
+CHC_13,Candelaria,3,2017,150.6,,,,,,,,,,,,seawater,yes,no,,no,2018_AR.txt,6169.9,279.86,220.8,249.95,311.32,,,26.7
+CHC_13,Candelaria,3,2018,101.6,,,,,,,,,,,,seawater,yes,no,,no,2018_AR.txt,6529.8,296.19,279.86,220.8,249.95,,,5.8
+CHC_13,Candelaria,3,2019,111.6,,,,,,,,,,,,seawater,yes,no,,no,2019_AR.txt,6010.1,272.62,296.19,279.86,220.8,,,-8.0
+CHC_13,Candelaria,3,2020,94.8,,,,,,1249.0,,,,,,seawater,yes,no,,no,2020_AR.txt,6174.6,280.07,272.62,296.19,279.86,,,2.7
+CHC_13,Candelaria,3,2021,118.8,,,,,,,,,,,,seawater,yes,no,,no,2021_AR.txt,9317.4,422.63,280.07,272.62,296.19,,,50.9
+CHC_13,Candelaria,3,2022,126.6,,,,,,,,,,,,seawater,yes,no,,no,2022_AR.txt,8828.9,400.47,422.63,280.07,272.62,,,-5.2
+CHC_14,Cerro Colorado,1,2019,72.0,,440.0,,,,,,,,,,continental aquifer,no,no,,no,2019_AnnualReport.txt,6010.1,272.62,296.19,279.86,220.8,277.2,1.7,-8.0
+CHC_14,Cerro Colorado,1,2020,69.0,,429.0,,,,,,,,,,continental aquifer,no,no,,no,2020_AnnualReporr.txt,6174.6,280.07,272.62,296.19,279.86,282.02,0.7,2.7
+CHC_14,Cerro Colorado,1,2021,,,543.0,,,,,,,,,,continental aquifer,no,yes,1TA precautionary measure Sept 2021 ordered halt to Lagunillas aquifer extraction,yes,2021_AnnualReport.txt,9317.4,422.63,280.07,272.62,296.19,,,50.9
+CHC_14,Cerro Colorado,1,2022,51.0,,454.0,,,,,,,,,,continental aquifer,no,yes,1TA new water restriction; last blast end 2022,yes,2022_AnnualReport.txt,8828.9,400.47,422.63,280.07,272.62,403.79,0.8,-5.2
+CHC_14,Cerro Colorado,1,2023,35.0,,321.0,,,,,,,,,,continental aquifer,no,yes,Environmental licence expired Dec 2023; last cathode harvest November 2023,yes,2023_AnnualReport.txt,8490.8,385.13,400.47,422.63,280.07,416.01,8.0,-3.8
+CHC_16,Quebrada Blanca,1,2007,76.0,,,,,,,,,,,,continental aquifer,no,no,,no,2007_AR.txt,7131.6,323.49,305.33,166.76,,,,5.9
+CHC_17,Lomas Bayas,2,2015,71.0,,383.0,,,,,,,,,,continental aquifer,no,no,,no,2015_AR.txt,5510.5,249.95,311.32,332.55,361.01,244.68,-2.1,-19.7
+CHC_17,Lomas Bayas,2,2016,71.0,,400.0,,,,,,,,,,continental aquifer,no,no,,no,2016_AR.txt,4867.9,220.8,249.95,311.32,332.55,255.55,15.7,-11.7
+CHC_17,Lomas Bayas,2,2017,79.0,,483.0,,,,,,,,,,continental aquifer,no,no,,no,2017_AR.txt,6169.9,279.86,220.8,249.95,311.32,277.32,-0.9,26.7
+CHC_19,Spence,2,2019,193.0,,,,,,,,,,,,seawater,yes,no,,no,2019_AR.txt,6010.1,272.62,296.19,279.86,220.8,,,-8.0
+CHC_19,Spence,2,2020,147.0,,946.0,,,,,,,,,,seawater,yes,no,,no,2020_AR.txt,6174.6,280.07,272.62,296.19,279.86,291.9,4.2,2.7
+CHC_19,Spence,2,2021,147.0,,1933.0,,,,,,,,,,seawater,yes,no,,no,2021_AR.txt,9317.4,422.63,280.07,272.62,296.19,596.46,41.1,50.9
+CHC_2,Salvador,2,2020,1618.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",no,2023_AnnualReport_ES.txt,6174.6,280.07,272.62,296.19,279.86,,,2.7
+CHC_2,Salvador,2,2021,1618.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",no,2023_AnnualReport_ES.txt,9317.4,422.63,280.07,272.62,296.19,,,50.9
+CHC_2,Salvador,2,2022,1446.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",yes,2023_AnnualReport_ES.txt,8828.9,400.47,422.63,280.07,272.62,,,-5.2
+CHC_2,Salvador,2,2023,1325.0,,,,,,,,,,,,continental aquifer,partial,no,,no,2023_AnnualReport_ES.txt,8490.8,385.13,400.47,422.63,280.07,,,-3.8
+CHC_3,Andina,2,2020,1618.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",no,2023_AnnualReport_ES.txt,6174.6,280.07,272.62,296.19,279.86,,,2.7
+CHC_3,Andina,2,2021,1618.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",no,2023_AnnualReport_ES.txt,9317.4,422.63,280.07,272.62,296.19,,,50.9
+CHC_3,Andina,2,2022,1446.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",yes,2023_AnnualReport_ES.txt,8828.9,400.47,422.63,280.07,272.62,,,-5.2
+CHC_3,Andina,2,2023,1325.0,,,,,,,,,,,,continental aquifer,partial,no,,no,2023_AnnualReport_ES.txt,8490.8,385.13,400.47,422.63,280.07,,,-3.8
+CHC_4,El Teniente,2,2020,1618.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",no,2023_AnnualReport_ES.txt,6174.6,280.07,272.62,296.19,279.86,,,2.7
+CHC_4,El Teniente,2,2021,1618.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",no,2023_AnnualReport_ES.txt,9317.4,422.63,280.07,272.62,296.19,,,50.9
+CHC_4,El Teniente,2,2022,1446.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",yes,2023_AnnualReport_ES.txt,8828.9,400.47,422.63,280.07,272.62,,,-5.2
+CHC_4,El Teniente,2,2023,1325.0,,,,,,,,,,,,continental aquifer,partial,no,,no,2023_AnnualReport_ES.txt,8490.8,385.13,400.47,422.63,280.07,,,-3.8
+CHC_5A,Radomiro Tomic,2,2020,1618.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",no,2023_AnnualReport_ES.txt,6174.6,280.07,272.62,296.19,279.86,,,2.7
+CHC_5A,Radomiro Tomic,2,2021,1618.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",no,2023_AnnualReport_ES.txt,9317.4,422.63,280.07,272.62,296.19,,,50.9
+CHC_5A,Radomiro Tomic,2,2022,1446.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",yes,2023_AnnualReport_ES.txt,8828.9,400.47,422.63,280.07,272.62,,,-5.2
+CHC_5A,Radomiro Tomic,2,2023,1325.0,,,,,,,,,,,,continental aquifer,partial,no,,no,2023_AnnualReport_ES.txt,8490.8,385.13,400.47,422.63,280.07,,,-3.8
+CHC_5B,Chuquicamata,2,2020,1618.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",no,2023_AnnualReport_ES.txt,6174.6,280.07,272.62,296.19,279.86,,,2.7
+CHC_5B,Chuquicamata,2,2021,1618.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",no,2023_AnnualReport_ES.txt,9317.4,422.63,280.07,272.62,296.19,,,50.9
+CHC_5B,Chuquicamata,2,2022,1446.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",yes,2023_AnnualReport_ES.txt,8828.9,400.47,422.63,280.07,272.62,,,-5.2
+CHC_5B,Chuquicamata,2,2023,1325.0,,,,,,,,,,,,continental aquifer,partial,no,,no,2023_AnnualReport_ES.txt,8490.8,385.13,400.47,422.63,280.07,,,-3.8
+CHC_5C,Ministro Hales,2,2020,1618.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",no,2023_AnnualReport_ES.txt,6174.6,280.07,272.62,296.19,279.86,,,2.7
+CHC_5C,Ministro Hales,2,2021,1618.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",no,2023_AnnualReport_ES.txt,9317.4,422.63,280.07,272.62,296.19,,,50.9
+CHC_5C,Ministro Hales,2,2022,1446.0,,,,,,,,,,,,continental aquifer,partial,yes,"La Niña 2020-22 drought: water restrictions at Radomiro Tomic, Chuquicamata, Gabriela Mistral",yes,2023_AnnualReport_ES.txt,8828.9,400.47,422.63,280.07,272.62,,,-5.2
+CHC_5C,Ministro Hales,2,2023,1325.0,,,,,,,,,,,,continental aquifer,partial,no,,no,2023_AnnualReport_ES.txt,8490.8,385.13,400.47,422.63,280.07,,,-3.8
+CHC_6,Escondida,2,2009,1103.0,,,,,,,,,,,,seawater,yes,no,,no,2009_AnnualReport_ES.txt,5164.2,234.24,315.86,323.49,305.33,,,-25.8
+CHC_6,Escondida,2,2013,1194.0,,,,,,,,,,,,seawater,yes,no,,no,2013_AnnualReport_ES.txt,7331.5,332.55,361.01,400.23,341.93,,,-7.9
+CHC_6,Escondida,2,2014,1172.0,,,,,,,,,,,,seawater,yes,no,,no,2014_AnnualReport_ES.txt,6863.4,311.32,332.55,361.01,400.23,,,-6.4
+CHC_6,Escondida,2,2017,925.0,,,,874.0,,,6249.0,3596.0,,,,seawater,yes,no,,no,2017_AnnualReport_ES.txt,6169.9,279.86,220.8,249.95,311.32,,,26.7
+CHC_6,Escondida,2,2018,1243.0,,,,,,,,,,,,seawater,yes,no,,no,2018_AnnualReport_ES.txt,6529.8,296.19,279.86,220.8,249.95,,,5.8
+CHC_6,Escondida,2,2019,1188.0,,,,,,,,,,,,seawater,yes,no,,no,2019_AnnualReport_ES.txt,6010.1,272.62,296.19,279.86,220.8,,,-8.0
+CHC_6,Escondida,2,2020,1187.0,,,,,,,,,,,,seawater,yes,no,,no,2020_AnnualReport_ES.txt,6174.6,280.07,272.62,296.19,279.86,,,2.7
+CHC_6,Escondida,2,2021,984.0,,,,,,,,,,,,seawater,yes,no,,no,2021_AnnualReport_ES.txt,9317.4,422.63,280.07,272.62,296.19,,,50.9
+CHC_6,Escondida,2,2022,1026.0,,,,,,,,,,,,seawater,yes,no,,no,2022_AnnualReport_ES.txt,8828.9,400.47,422.63,280.07,272.62,,,-5.2
+CHC_7,Collahuasi,1,2018,,,3241.0,1014.0,,1000.0,,,,,,,continental aquifer,no,no,,no,2019_AR.txt,6529.8,296.19,279.86,220.8,249.95,,,5.8
+CHC_7,Collahuasi,1,2019,,,3147.0,995.0,,1060.0,,,,,,,continental aquifer,no,no,,no,2019_AR.txt,6010.1,272.62,296.19,279.86,220.8,,,-8.0
+CHC_7,Collahuasi,1,2020,,,3936.0,1567.0,,1360.0,,,,,,,continental aquifer,no,no,,no,2021_AR.txt,6174.6,280.07,272.62,296.19,279.86,,,2.7
+CHC_7,Collahuasi,1,2021,630.0,71.0,5906.0,2833.0,830.0,2600.0,,,,,,,continental aquifer,no,no,,no,2022_AR.txt,9317.4,422.63,280.07,272.62,296.19,425.23,0.6,50.9
+CHC_7,Collahuasi,1,2022,571.0,96.0,4817.0,3366.0,717.0,1500.0,,1919.0,5311.0,,,,continental aquifer,no,yes,Water restrictions in Tarapacá region; Salar de Coposa and humedales monitoring,yes,2022_AR.txt,8828.9,400.47,422.63,280.07,272.62,382.65,-4.4,-5.2
+CHC_7,Collahuasi,1,2025,404.0,,,,,,,,,,,,continental aquifer,no,no,,no,2025_AR.txt,9676.0,438.89,414.68,385.13,400.47,,,5.8
+CHC_8,Los Pelambres,4,2017,344.0,,,,,,,,,,,,river,no,no,,no,2017_AR.txt,6169.9,279.86,220.8,249.95,311.32,,,26.7
+CHC_8,Los Pelambres,4,2018,358.0,,,,,,,,,,,,river,no,no,,no,2018_AR.txt,6529.8,296.19,279.86,220.8,249.95,,,5.8
+CHC_8,Los Pelambres,4,2019,363.0,,,,,,,,,,,,river,no,yes,Drought in Coquimbo region; reduced Choapa River flows,yes,2020_AR.txt,6010.1,272.62,296.19,279.86,220.8,,,-8.0
+CHC_8,Los Pelambres,4,2020,360.0,,,,,,,,,,,,river,no,yes,Acute drought in Coquimbo; Plan Sequía implemented; desalination plant construction started,yes,2020_AR.txt,6174.6,280.07,272.62,296.19,279.86,,,2.7
+CHC_8,Los Pelambres,4,2021,325.0,,,,,,,,,,,,river,no,yes,Drought continuing; La Niña 2020-22; desalination under construction,yes,2021_AR.txt,9317.4,422.63,280.07,272.62,296.19,,,50.9
+CHC_8,Los Pelambres,4,2022,275.0,,,,,,,,,,,,river,no,yes,Community mobilizations and water conflict in Choapa Valley; production reduced,yes,2022_AR.txt,8828.9,400.47,422.63,280.07,272.62,,,-5.2
+CHC_8,Los Pelambres,4,2023,300.0,,,,,,,,,,,,river,no,yes,Ongoing drought; desalination plant near completion,yes,2023_AR.txt,8490.8,385.13,400.47,422.63,280.07,,,-3.8
+CHC_8,Los Pelambres,4,2024,320.0,,,,,,,,,,,,seawater,yes,yes,Drought in Coquimbo; Plan Sequía; new desalination (400 L/s) commissioned March 2024,no,2024_AR.txt,9142.1,414.68,385.13,400.47,422.63,,,7.7
+CHC_8,Los Pelambres,4,2025,295.0,,,,,,,,,,,,seawater,yes,yes,Drought continuing in Coquimbo region,no,2025_AR.txt,9676.0,438.89,414.68,385.13,400.47,,,5.8
+CHC_9A/CHC_9B,Anglo American Sur (El Soldado + Los Bronces),13,2007,304.0,,,,,,,,,,,,river,no,no,,no,2007_AR.txt,7131.6,323.49,305.33,166.76,,,,5.9
+CHC_9A/CHC_9B,Anglo American Sur (El Soldado + Los Bronces),13,2008,286.0,,,,,,,,,,,,river,no,no,,no,2008_AR.txt,6963.5,315.86,323.49,305.33,166.76,,,-2.4
+CHC_9A/CHC_9B,Anglo American Sur (El Soldado + Los Bronces),13,2009,282.0,,,,,,,,,,,,river,no,no,,no,2009_AR.txt,5164.2,234.24,315.86,323.49,305.33,,,-25.8
+CHC_9A/CHC_9B,Anglo American Sur (El Soldado + Los Bronces),13,2010,262.0,,,,,,,,,,,,river,no,no,,no,2010_AR.txt,7538.4,341.93,234.24,315.86,323.49,,,46.0
+CHC_9A/CHC_9B,Anglo American Sur (El Soldado + Los Bronces),13,2011,269.0,,,,,,,,,,,,river,no,no,,no,2011_AR.txt,8823.5,400.23,341.93,234.24,315.86,,,17.0
+CHC_9A/CHC_9B,Anglo American Sur (El Soldado + Los Bronces),13,2017,349.0,,,,,,,,,,,,river,no,no,,no,2017_AR.txt,6169.9,279.86,220.8,249.95,311.32,,,26.7
+CHC_9A/CHC_9B,Anglo American Sur (El Soldado + Los Bronces),13,2018,422.0,145.0,,,,,,,,,,,river,no,no,,no,2018_AR.txt,6529.8,296.19,279.86,220.8,249.95,,,5.8
+CHC_9A/CHC_9B,Anglo American Sur (El Soldado + Los Bronces),13,2019,119.0,205.0,,,,,,,,,,,river,no,no,,no,2019_AR.txt,6010.1,272.62,296.19,279.86,220.8,,,-8.0
+CHC_9A/CHC_9B,Anglo American Sur (El Soldado + Los Bronces),13,2020,371.0,152.0,,,,,,,,,,,river,no,no,,no,2020_AR.txt,6174.6,280.07,272.62,296.19,279.86,,,2.7
+CHC_9A/CHC_9B,Anglo American Sur (El Soldado + Los Bronces),13,2021,105.0,162.0,,,,,,,,,,,river,no,no,,no,2021_AR.txt,9317.4,422.63,280.07,272.62,296.19,,,50.9
+CHC_9A/CHC_9B,Anglo American Sur (El Soldado + Los Bronces),13,2023,110.0,309.0,,,,,,,,,,,river,no,no,,no,2023_AR.txt,8490.8,385.13,400.47,422.63,280.07,,,-3.8
+CHC_9A/CHC_9B,Anglo American Sur (El Soldado + Los Bronces),13,2025,102.0,253.0,,,,,,,,,,,river,no,no,,no,2025_AR.txt,9676.0,438.89,414.68,385.13,400.47,,,5.8
