@@ -1,0 +1,7 @@
+label,term,n,beta_min,beta_max,p_min,p_max
+FLOOD_mine_A,thr_flood_mine,3,-0.0179,-0.0115,0.3321,0.6643
+FLOOD_mine_B,stress_flood_mine,3,-0.0233,0.0307,0.4133,0.4624
+FLOOD_regmean_A,thr_flood_regmean_M,3,-0.0507,-0.0401,0.001,0.0051
+FLOOD_regmean_B,stress_flood_regmean_M,3,-0.0525,-0.018,0.0215,0.4741
+HEAT_mine_A,thr_heat_mine,3,-0.0148,0.019,0.2775,0.8952
+HEAT_mine_B,stress_heat_mine,3,-0.0484,-7e-04,0.0201,0.9727

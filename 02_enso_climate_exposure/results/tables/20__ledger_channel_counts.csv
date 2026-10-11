@@ -1,0 +1,6 @@
+channel,n_rows,n_thr_crossed,pct_thr_crossed,n_enso_aligned,pct_enso_aligned,n_stress,pct_stress
+DROUGHT_hydro,15048,739,22.32,3197,21.25,285,8.61
+DROUGHT_meteo,15048,2780,18.73,3197,21.25,776,5.23
+FLOOD_mine,15048,1114,7.41,334,2.22,334,2.22
+FLOOD_regmean_M,15048,2206,14.66,1697,11.28,639,4.25
+HEAT_mine,15048,3816,25.39,2868,19.06,838,5.57

@@ -1,0 +1,20 @@
+mine_operation,company,codregion,region_en,lon,lat,approx_elev_m,altitude_tier,primary_basin_gauge_code,primary_basin_gauge_name
+Codelco - Gaby,Codelco,2,Antofagasta,-69.27,-22.75,2600,high,02101001,RIO LOA ANTES REPRESA LEQUENA
+Codelco - Salvador,Codelco,3,Atacama,-69.62,-26.21,2600,high,03430003,RIO COPIAPO EN PASTILLO
+Codelco - Andina,Codelco,5,Valparaiso,-70.05,-32.85,3800,high,05410002,RIO ACONCAGUA EN CHACABUQUITO
+Codelco - Teniente,Codelco,6,O'Higgins,-70.35,-34.10,2800,high,06028001,RIO TINGUIRIRICA BAJO LOS BRIONES
+"Codelco - Chuqui, RT y MH",Codelco,2,Antofagasta,-68.90,-22.30,2800,high,02101001,RIO LOA ANTES REPRESA LEQUENA
+Escondida,BHP,2,Antofagasta,-69.05,-24.27,3100,high,02101001,RIO LOA ANTES REPRESA LEQUENA
+Collahuasi,Compania Minera Dona Ines de Collahuasi,1,Tarapaca,-68.71,-20.97,4400,high,01050002,RIO PIGA EN COLLACAGUA
+Los Pelambres,Antofagasta plc,4,Coquimbo,-70.50,-31.74,3600,high,04703002,RIO CHOAPA EN CUNCUMEN
+Anglo American Sur,Anglo American,13,Santiago Metropolitan,-70.27,-33.10,3500,high,05710001,RIO MAIPO EN EL MANZANO
+Anglo American Norte,Anglo American / Mantos assets,2,Antofagasta,-69.30,-22.40,1100,low,02101001,RIO LOA ANTES REPRESA LEQUENA
+Zaldivar,Antofagasta plc / Barrick,2,Antofagasta,-69.07,-22.93,3000,high,02101001,RIO LOA ANTES REPRESA LEQUENA
+El Abra,Freeport-McMoRan / Codelco,2,Antofagasta,-68.77,-22.05,4000,high,02101001,RIO LOA ANTES REPRESA LEQUENA
+Candelaria,Lundin Mining / Sumitomo,3,Atacama,-70.55,-27.47,600,low,03430003,RIO COPIAPO EN PASTILLO
+Cerro Colorado,BHP,1,Tarapaca,-69.30,-20.07,2600,high,02113001,RIO HUATACONDO EN COPAQUIRE
+El Tesoro,Antofagasta plc / Centinela,2,Antofagasta,-69.04,-22.45,2300,high,02101001,RIO LOA ANTES REPRESA LEQUENA
+Quebrada Blanca,Teck,1,Tarapaca,-68.78,-20.83,4400,high,02113001,RIO HUATACONDO EN COPAQUIRE
+Lomas Bayas,Glencore,2,Antofagasta,-69.50,-23.42,1500,low,02101001,RIO LOA ANTES REPRESA LEQUENA
+Esperanza,Antofagasta plc / Centinela,2,Antofagasta,-69.04,-22.79,2300,high,02101001,RIO LOA ANTES REPRESA LEQUENA
+Spence,BHP,2,Antofagasta,-69.30,-22.73,1700,low,02101001,RIO LOA ANTES REPRESA LEQUENA

@@ -1,0 +1,24 @@
+\begin{table}[H]
+\centering
+\caption{Operational thresholds and their roles. The regional-mean monthly accumulation is the headline FLOOD definition; the mine-cell daily variant is a conservative point-level lower bound. Source anchors are listed in the footnote.}
+\label{tab:thresholds}
+\small
+\begin{tabular}{p{3.0cm}p{3.8cm}p{2.8cm}p{4.4cm}}
+\toprule
+\textbf{Channel} & \textbf{Threshold} & \textbf{Resolution} & \textbf{Role} \\
+\midrule
+\texttt{FLOOD\_regmean\_M}$^{1}$ & >= 20 mm/month & monthly & FLOOD headline \\
+\texttt{FLOOD\_mine}$^{2}$ & >= 20 mm/day & daily & Conservative point-level lower bound \\
+\texttt{HEAT\_mine}$^{3}$ & >= 23.5 degC monthly mean & monthly aggregate & Acute (robust null) \\
+\texttt{DROUGHT\_meteo}$^{4}$ & SPEI-12 <= -1 & monthly aggregated to annual share & DROUGHT headline (meteorological) \\
+\bottomrule
+\end{tabular}
+\\[2pt]
+{\footnotesize\raggedright
+$^{1}$\,Wilcox et al. 2016 GRL 20 mm threshold applied at the regional-mean monthly scale.\quad
+$^{2}$\,Wilcox et al. 2016 GRL aluvion definition.\quad
+$^{3}$\,Chile DS 594/1999 occupational heat-stress (daily 27 C anchor calibrated to monthly mean on CR2MET 1960-2021).\quad
+$^{4}$\,WMO moderate-drought standard (Vicente-Serrano 2010).
+}
+\end{table}
+
