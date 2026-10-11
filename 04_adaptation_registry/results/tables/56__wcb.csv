@@ -1,5 +1,0 @@
-channel,beta_xa,cr1_p_asymp,wcb_p_webb,wcb_p_rademacher,B,clusters,weights
-drought_cum3_str_meteo,0.086,0.90,0.91,0.92,9999,7,webb/rademacher
-flood_region_mean,-0.248,0.09,0.23,0.25,9999,7,webb/rademacher
-flood_mine_cell,-0.140,0.49,0.59,0.57,9999,7,webb/rademacher
-heat_mine_cell,0.015,0.88,0.88,0.88,9999,7,webb/rademacher
